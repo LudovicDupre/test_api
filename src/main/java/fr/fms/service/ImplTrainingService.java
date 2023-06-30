@@ -33,6 +33,4 @@ public class ImplTrainingService implements ITrainingService{
     public Optional<Training> readTraining(Long id) {
         return trainingRepository.findById(id);
     }
-
-
 }
